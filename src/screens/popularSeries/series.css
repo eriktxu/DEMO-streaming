@@ -1,0 +1,22 @@
+.series-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-bottom: 290px;
+}
+
+.serie-card {
+    width: 200px; 
+    margin: 10px; 
+}
+
+.serie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+}
+
+.serie-card h3 {
+    margin-top: 5px;
+    text-align: center;
+}

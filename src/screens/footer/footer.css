@@ -1,0 +1,63 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #000000;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.icons-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    padding: 70px;
+    padding-left: 110px;
+}
+
+.store-icons {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+    fill: #FFFF;
+}
+
+.icon-store {
+    width: 180px;
+    height: 95px;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+    padding-left: 110px ;
+    padding-top: 10px;
+    color: gray;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.copyright {
+    margin-bottom: 10px;
+    padding-left: 110px ;
+    color: gray;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.footer-links span {
+    margin-right: 7px;
+    margin-left: 7px;
+}
